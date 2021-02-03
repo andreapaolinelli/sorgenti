@@ -1,0 +1,12 @@
+/home/andreap/Documenti/ClassLibraryProjects/StringLibrary/bin/Release/net5.0/StringLibrary.deps.json
+/home/andreap/Documenti/ClassLibraryProjects/StringLibrary/bin/Release/net5.0/StringLibrary.dll
+/home/andreap/Documenti/ClassLibraryProjects/StringLibrary/bin/Release/net5.0/ref/StringLibrary.dll
+/home/andreap/Documenti/ClassLibraryProjects/StringLibrary/bin/Release/net5.0/StringLibrary.pdb
+/home/andreap/Documenti/ClassLibraryProjects/StringLibrary/obj/Release/net5.0/StringLibrary.csprojAssemblyReference.cache
+/home/andreap/Documenti/ClassLibraryProjects/StringLibrary/obj/Release/net5.0/StringLibrary.GeneratedMSBuildEditorConfig.editorconfig
+/home/andreap/Documenti/ClassLibraryProjects/StringLibrary/obj/Release/net5.0/StringLibrary.AssemblyInfoInputs.cache
+/home/andreap/Documenti/ClassLibraryProjects/StringLibrary/obj/Release/net5.0/StringLibrary.AssemblyInfo.cs
+/home/andreap/Documenti/ClassLibraryProjects/StringLibrary/obj/Release/net5.0/StringLibrary.csproj.CoreCompileInputs.cache
+/home/andreap/Documenti/ClassLibraryProjects/StringLibrary/obj/Release/net5.0/StringLibrary.dll
+/home/andreap/Documenti/ClassLibraryProjects/StringLibrary/obj/Release/net5.0/ref/StringLibrary.dll
+/home/andreap/Documenti/ClassLibraryProjects/StringLibrary/obj/Release/net5.0/StringLibrary.pdb
