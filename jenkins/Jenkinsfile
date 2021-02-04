@@ -12,7 +12,8 @@ node {
    
     //dotnetBuild project: 'ClassLibraryProjects', workDirectory: 'sorgenti'ù
     //dotnetBuild project: 'ClassLibraryProjects.sln'
-       dotnetBuild project: 'ClassLibraryProjects.sln', workDirectory: 'andreapaolinelli/sorgenti'
+    //dotnetBuild project: 'ClassLibraryProjects.sln', workDirectory: 'andreapaolinelli/sorgenti'
+       dotnetBuild project: 'ClassLibraryProjects.sln', workDirectory: '/23/execution/node/3/ws/jenkins/'
     
    }
  
