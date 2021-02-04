@@ -3,7 +3,7 @@ node {
    stage('Preparation') { // for display purposes
       // Get some code from a GitHub repository
    
-    git credentialsId: 'd4c9f0a2-c64d-4f06-9454-14fe80ff2be0', url: 'https://github.com/andreapaolinelli'
+    git credentialsId: 'd4c9f0a2-c64d-4f06-9454-14fe80ff2be0', url: 'https://github.com/andreapaolinelli/sorgenti'
      
     
    }
