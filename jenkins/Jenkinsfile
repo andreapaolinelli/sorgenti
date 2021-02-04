@@ -11,7 +11,8 @@ node {
      stage('Build') { // for display purposes
    
     //dotnetBuild project: 'ClassLibraryProjects', workDirectory: 'sorgenti'ù
-     dotnetBuild project: 'ClassLibraryProjects.sln'
+    //dotnetBuild project: 'ClassLibraryProjects.sln'
+       dotnetBuild project: 'ClassLibraryProjects.sln', workDirectory: 'andreapaolinelli/sorgenti'
     
    }
  
