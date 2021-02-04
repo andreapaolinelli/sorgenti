@@ -10,7 +10,7 @@ node {
   
      stage('Build') { // for display purposes
    
-    dotnetBuild project: 'ClassLibraryProjects', workDirectory: '.'
+    dotnetBuild project: 'ClassLibraryProjects', workDirectory: 'sorgenti'
     
    }
  
