@@ -21,7 +21,6 @@ node {
    }
   
    stage('Uni_Test') { // for display purposes
-     {
          dotnetTest project: 'ClassLibraryProjects.sln', sdk: 'versione 5.0.0', workDirectory: '/var/jenkins_home/workspace/progettoandrea'
      }
  
