@@ -25,8 +25,8 @@ node {
      }
   
    stage('Junit_output') { // for display purposes
-     mstest testResultsFile:"StringLibraryTest/TestResults/unit_tests.trx", keepLongStdio: true
-         junit allowEmptyResults: true, testResults: 'mstest testResultsFile:StringLibraryTest/TestResults/unit_tests.trx, keepLongStdio: true'
+     mstest testResultsFile:"unit_tests2.trx", keepLongStdio: true
+     junit allowEmptyResults: true, testResults: 'unit_test.xml'
      }
   
  
