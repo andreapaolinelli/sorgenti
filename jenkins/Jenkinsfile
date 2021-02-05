@@ -21,11 +21,9 @@ node {
    }
   
    stage('Uni_Test') { // for display purposes
-         dotnetTest project: 'ClassLibraryProjects.sln', sdk: 'versione 5.0.0', workDirectory: '/var/jenkins_home/workspace/progettoandrea'
+         dotnetTest logger: 'trx;LogFileName=unit_tests.xml', project: 'ClassLibraryProjects.sln', sdk: 'versione 5.0.0', workDirectory: '/var/jenkins_home/workspace/progettoandrea'
      }
-   stage('Junit_output') { // for display purposes
-junit allowEmptyResults: true, testResults: '/var/jenkins_home/workspace/progettoandrea/prova.xml'
-   }
+  
  
  
 }
