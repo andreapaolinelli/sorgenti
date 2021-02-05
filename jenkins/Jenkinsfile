@@ -25,7 +25,7 @@ node {
      }
   
    stage('Junit_output') { // for display purposes
-     //step ([$class: 'MSTestPublisher', testResultsFile:"**/TestResults/unit_tests.trx", failOnError: true, keepLongStdio: true])
+     mstest testResultsFile:"**/unit_tests.trx", keepLongStdio: true
      junit allowEmptyResults: true, testResults: 'StringLibraryTest/TestResults/unit_tests.trx'
      }
   
