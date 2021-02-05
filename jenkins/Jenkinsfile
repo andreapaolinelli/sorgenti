@@ -24,7 +24,7 @@ node {
          dotnetTest project: 'ClassLibraryProjects.sln', sdk: 'versione 5.0.0', workDirectory: '/var/jenkins_home/workspace/progettoandrea'
      }
    stage('Junit_output') { // for display purposes
-  junit '/var/jenkins_home/workspace/progettoandrea/prova.xml'
+junit allowEmptyResults: true, testResults: '/var/jenkins_home/workspace/progettoandrea/prova.xml'
    }
  
  
