@@ -15,7 +15,7 @@ node {
     //dotnetBuild project: 'ClassLibraryProjects.sln', workDirectory: 'andreapaolinelli/sorgenti'
    //dotnetBuild project: 'ClassLibraryProjects.sln', sdk: 'versione 3', workDirectory: '/var/jenkins_home/workspace/progettoandrea'
        dotnetBuild project: 'ClassLibraryProjects.sln', sdk: 'versione 5.0.0', workDirectory: '/var/jenkins_home/workspace/progettoandrea'
-       dotnetTest project: 'ClassLibraryProjects.sln', workDirectory: '/var/jenkins_home/workspace/progettoandrea'
+       dotnetTest project: 'ClassLibraryProjects.sln', sdk: 'versione 5.0.0', workDirectory: '/var/jenkins_home/workspace/progettoandrea'
        
     
    }
