@@ -24,10 +24,10 @@ node {
      dotnetTest logger: 'trx;LogFileName=unit_tests.trx', project: 'ClassLibraryProjects.sln', sdk: 'versione 5.0.0', workDirectory: '/var/jenkins_home/workspace/progettoandrea'
      }
   
-   //stage('Junit_output') { // for display purposes
+   stage('Junit_output') { // for display purposes
      //step ([$class: 'MSTestPublisher', testResultsFile:"**/TestResults/unit_tests.trx", failOnError: true, keepLongStdio: true])
-     //junit allowEmptyResults: true, testResults: 'StringLibraryTest/TestResults/unit_tests.trx'
-     //}
+     junit allowEmptyResults: true, testResults: 'StringLibraryTest/TestResults/unit_tests.trx'
+     }
   
  
  
