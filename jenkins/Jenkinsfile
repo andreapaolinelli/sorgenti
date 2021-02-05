@@ -13,7 +13,8 @@ node {
     //dotnetBuild project: 'ClassLibraryProjects', workDirectory: 'sorgenti'ù
     //dotnetBuild project: 'ClassLibraryProjects.sln'
     //dotnetBuild project: 'ClassLibraryProjects.sln', workDirectory: 'andreapaolinelli/sorgenti'
-   dotnetBuild project: 'ClassLibraryProjects.sln', sdk: 'versione 3', workDirectory: '/var/jenkins_home/workspace/progettoandrea'
+   //dotnetBuild project: 'ClassLibraryProjects.sln', sdk: 'versione 3', workDirectory: '/var/jenkins_home/workspace/progettoandrea'
+       dotnetBuild project: 'ClassLibraryProjects.sln', sdk: 'versione 5.0.0', workDirectory: '/var/jenkins_home/workspace/progettoandrea'
     
    }
  
